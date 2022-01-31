@@ -5,6 +5,8 @@ import lombok.extern.log4j.Log4j2;
 @Log4j2
 public class AssosicationMainTest {
     public static void main(String[] args) {
+        //Muster >1 fazla
+        //Super>1 fazla
         Musteri musteri=Musteri.builder().musteriAdi("Nurmelek").musteriSehir("Ankara").build();
 
         SuperMarket superMarket=SuperMarket.builder().superMarketAdi("xsısdj").superMarketSehir("Ankara").build();
