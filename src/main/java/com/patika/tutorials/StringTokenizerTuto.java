@@ -16,6 +16,7 @@ public class StringTokenizerTuto {
         StringTokenizer stringTokenizer=new StringTokenizer(jsonObject,",# ");
         while (stringTokenizer.hasMoreTokens()){
             System.out.println(stringTokenizer.nextToken());
+
         }
     }
 }
