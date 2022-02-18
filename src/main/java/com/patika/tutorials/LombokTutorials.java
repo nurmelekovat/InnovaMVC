@@ -4,7 +4,7 @@ import lombok.Data;
 import  lombok.*;
 import java.util.Objects;
 
-//@Data //getter setter+hashcode+toString
+@Data //getter setter+hashcode+toString
 @NoArgsConstructor //Parametresiz constructor
 @AllArgsConstructor //Parametreli constructor
 @Builder
