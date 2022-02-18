@@ -1,8 +1,11 @@
 package com.patika.model;
 
-import lombok.*;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 
-@Data
+
 @Builder
 @Getter
 @Setter
@@ -10,12 +13,4 @@ import lombok.*;
 public class Student {
     private String adi;
     private String soyadi;
-
-    public Student() {
-    }
-
-    public Student(String adi, String soyadi) {
-        this.adi = adi;
-        this.soyadi = soyadi;
-    }
 }
